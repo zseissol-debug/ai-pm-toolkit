@@ -37,11 +37,11 @@ Add to your Claude Code project settings (`.claude/settings.json`):
     "allow": []
   },
   "skills": [
-    "github:YOUR_USERNAME/ai-pm-toolkit/skills/pm-specify",
-    "github:YOUR_USERNAME/ai-pm-toolkit/skills/pm-verify",
-    "github:YOUR_USERNAME/ai-pm-toolkit/skills/pm-fix",
-    "github:YOUR_USERNAME/ai-pm-toolkit/skills/pm-init",
-    "github:YOUR_USERNAME/ai-pm-toolkit/skills/ai-product-prd-writer"
+    "github:zseissol-debug/ai-pm-toolkit/skills/pm-specify",
+    "github:zseissol-debug/ai-pm-toolkit/skills/pm-verify",
+    "github:zseissol-debug/ai-pm-toolkit/skills/pm-fix",
+    "github:zseissol-debug/ai-pm-toolkit/skills/pm-init",
+    "github:zseissol-debug/ai-pm-toolkit/skills/ai-product-prd-writer"
   ]
 }
 ```
@@ -50,13 +50,13 @@ Or install individual skills:
 
 ```bash
 # SDD series
-claude skills add github:YOUR_USERNAME/ai-pm-toolkit/skills/pm-init
-claude skills add github:YOUR_USERNAME/ai-pm-toolkit/skills/pm-specify
-claude skills add github:YOUR_USERNAME/ai-pm-toolkit/skills/pm-verify
-claude skills add github:YOUR_USERNAME/ai-pm-toolkit/skills/pm-fix
+claude skills add github:zseissol-debug/ai-pm-toolkit/skills/pm-init
+claude skills add github:zseissol-debug/ai-pm-toolkit/skills/pm-specify
+claude skills add github:zseissol-debug/ai-pm-toolkit/skills/pm-verify
+claude skills add github:zseissol-debug/ai-pm-toolkit/skills/pm-fix
 
 # PRD Writer
-claude skills add github:YOUR_USERNAME/ai-pm-toolkit/skills/ai-product-prd-writer
+claude skills add github:zseissol-debug/ai-pm-toolkit/skills/ai-product-prd-writer
 ```
 
 ## Real-world Validation
